@@ -1,21 +1,18 @@
 # Surmize
 A full scale client-server model for Summarizing and asking close-domain Questions on documents and or texts directly in your browser. The file extentions **.txt**, **.story** and **.pdf** are currently supported and some **.CSV**-files.    
    
-This project was developed by us for the course Independent Project in Information Engineering at Uppsala University. The applicaiton is built mostly in React, FastAPI and Python modeles. The underlying NLP models are based on the [cdQA repo](https://github.com/cdqa-suite/cdQA) and [Huggingface's Abstractive BERT summarizer repo](https://github.com/huggingface/transformers/tree/master/examples/summarization/bertabs). Both models are state-of-the-art transformer models, which have performed very well on a diverse number of NLP tasks.
+This project was developed by us for the course Independent Project in Information Engineering at Uppsala University. The applicaiton is built mostly in React, FastAPI and Python modeles. The underlying NLP models are based on Huggingface. Both models are state-of-the-art transformer models, which have performed very well on a diverse number of NLP tasks.
 
-### Links:
-- [Slide Presentation](#TODO)
-- [Introduction Slides: Before the Project Started](https://www.notion.so/PowerPoint-f21825f57a6446c28963273e816bd053)  
-- [Project Information Folder](https://www.notion.so/Summarize-App-c834b35bb7d748c4a57662652b9ce326)
-- [Report](#TODO)
-- [Datasets](#TODO)
-- [Future Improvments](#TODO)
-  
+### Landing Page 
+<img src="https://github.com/MarkusSagen/img/blob/master/surmize/home.png" width="80%" />  
+
+### Work Area 
+<img src="https://github.com/MarkusSagen/img/blob/master/surmize/workspace.png" width="80%" />  
   
 ### Usage 
 These instructions are related to how to get the server up an runnning, the UI and NLP models for summarization and Close-Domain QA.    
    
-Some have experienced problems when using Python3 directly, we therefore recommend users to install and use Python3 via Anaconda
+Some have experienced problems when using Python3 directly, we therefore recommend users to install and use Python3 via [Anaconda](https://www.anaconda.com/products/individual)
 
 1. Clone this repo:
 ```bash
